@@ -2,7 +2,7 @@ pipeline {
 
 environment {
 
-BUILD_SCRIPTS_GIT="http://10.100.100.10:7990/scm/~myname/mypipeline.git"
+BUILD_SCRIPTS_GIT="https://github.com/ABhasgaran/JenkinsProject.git"
 
 BUILD_SCRIPTS='mypipeline'
 
@@ -20,9 +20,9 @@ steps {
 
 sh "mkdir -p $WORKSPACE/repo;\
 
-git config --global user.email 'email@address.com';\
+git config --global user.email 'aaradhaa@googlemail.com';\
 
-git config --global user.name 'myname';\
+git config --global user.name 'alwar s';\
 
 git config --global push.default simple;\
 
